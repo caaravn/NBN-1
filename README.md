@@ -1,31 +1,62 @@
-# NBN-1
-Doubts 
-fc
-ASM team
+Tool's
+GIT HUB
+JENKINS
+EKS
+
+EC2
+MONGO DB
+KAFKA AND ZOOKEEPER
+
+
+
+CSA----->Customer service assurance 
+In our micro service we do not have any UI we are purely backend service and are writen in java version 11
+
+Applications we work on1. Microservices
+2. TND( test and diagones)
+3. Flexicache
+4. TYK (It is a api gateway)
+5. 
 
 
 Microservices enablement KT sessions
 
-we are managing tnd spaces micro services and 60+  microservices we are using in EKS clusters
+We are managing tnd spaces micro services and 80+  microservices we are using in EKS clusters
 
-jenkins 68 use for build activities and deployment 
-jenkins 12 use for autoTDmatations related to infrastructure like health checks, patching of servers
+jenkins 68 use for build activities and deployment (micro service)
+jenkins 12 use for automatations related to infrastructure like health checks, patching of servers (for tyk)
 
-we have two different kafka
-1. TND kafka and
-2. jigsaw kafka (remedy kafka)
+
+We have two different kafka clusters (To communicate between microservices we are using kafka)
+1. TND kafka 
+2. Jigsaw kafka (remedy kafka)
+
    
 
-7 environments running in NON PROD 
-(system test)
-(system integration testing)
+Zookeeper ----> Inside zookeeper server kafka brokers are running
+
+
+2 environments running in PROD
+PROD
+PSUP  
+   
+
+We maintain 7 environments running in NON PROD 
+(System test)
+(System integration testing)
+
+MR team will work on this four envts and should be up and running before 8am
 Sit1
-sit3
-rsvt
-st2
-st
-psvt
-dev4
+Sit3
+Rsvt
+Psvt
+St2
+
+
+Lower env Developers(operations) will work on this two Env and testing happens. 
+St
+Dev4
+
 
 All the above environment has x-stack enabler. This x stack enabler job is starting up the entire cluster daily triggers and start up the env like it will start up the zookeeper 
 instances and auto scaling group.
@@ -57,7 +88,8 @@ changing github token in jenkins
 jenkins 12 ( patching work)
 
 CSA MS ec2 patching ( pipeline update ami pipeline)
-
+Note:-- Patching refers to the process of updating software and systems to fix  vulnerabilities, improve functionality and ensure stability. This
+        practice is critical for maintaing the security and reliability of applications and infrastructure. 
 
 
 Tools:
@@ -65,6 +97,9 @@ ORGE---> FOR AWS cost cutting
 Plutora---> we need to raise ECR'S using plutora, when we do somthing on enviromnents like RSVT, SIT1 AND SIT3 which are managed by MR teams that time we need to raise ECR'S 
 
 
-
+# NBN-1
+Doubts 
+fc
+ASM team
 
 
