@@ -41,19 +41,19 @@ PROD
 PSUP  
    
 
-We maintain 7 environments running in NON PROD 
+We maintain 7 environments running in NON-PROD 
 (System test)
 (System integration testing)
 
 MR team will work on this four envts and should be up and running before 8am
-Sit1
-Sit3
-Rsvt
+*Sit1
+*Sit3
+*Rsvt
 Psvt
 St2
 
 
-Lower env Developers(operations) will work on this two Env and testing happens. 
+(Lower env) Developers(operations) will work on this two Env and testing happens.
 St
 Dev4
 
