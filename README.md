@@ -33,7 +33,7 @@ We have two different kafka clusters (To communicate between microservices we ar
 
    
 
-Zookeeper ----> Inside zookeeper server kafka brokers are running
+Zookeeper----> Inside zookeeper server kafka brokers are running
 
 
 2 environments running in PROD
@@ -74,13 +74,14 @@ As this is the lower env non prod goes down at 11pm AST and comes up 8am AST
 4-> 7:15am AST internal health check
 5-> 8:00am AST external health check report
 
-Task 2 jenkins 68
+Task 2 
+jenkins 68
 Provisioners debugging
 
-task 3
+Task 3
 Health checks
 
-task 4 
+Task 4 
 changing github token in jenkins
 
 
